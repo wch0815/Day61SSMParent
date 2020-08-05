@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cheng.dao.IUsersDao">
+	
+	<select id="getAllUsers" resultType="Users">
+		select * from tb_vip_users
+	</select>
+	
+</mapper>
